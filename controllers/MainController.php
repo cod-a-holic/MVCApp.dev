@@ -1,9 +1,9 @@
 <?php
 
-class MainController
+class MainController extends Controller
 {
     public function actionIndex()
     {
-        echo __METHOD__ ;
+        $this->view('index');
     }
 }
